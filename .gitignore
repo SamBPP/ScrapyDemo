@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Jupyter Notebook outputs
+*.ipynb
+
+# Scrapy caches
+.scrapy/
+
