@@ -11,3 +11,5 @@ __pycache__/
 # Scrapy caches
 .scrapy/
 
+# json files
+*.json

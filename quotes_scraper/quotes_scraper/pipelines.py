@@ -14,3 +14,8 @@ class QuotesScraperPipeline:
         line = json.dumps(dict(item), ensure_ascii=False) + "\n"
         self.file.write(line)
         return item
+    
+    def process_item(self, item, spider):
+        # Example: remove quotation marks from text
+        item['text'] = item['text'].strip('“”')
+        return item

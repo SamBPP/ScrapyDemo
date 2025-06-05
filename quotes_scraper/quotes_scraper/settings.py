@@ -14,6 +14,8 @@ NEWSPIDER_MODULE = "quotes_scraper.spiders"
 
 ADDONS = {}
 
+LOG_LEVEL = "INFO"
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "quotes_scraper (+http://www.yourdomain.com)"
